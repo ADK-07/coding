@@ -10,19 +10,19 @@ public class Shopping {
             char currency = '$';
             double total;
 
-            System.out.println("What item would you like:");
+            System.out.print("What item would you like: ");
             item = sc.nextLine();
 
-            System.out.println("What is the price for each ?:");
+            System.out.print("What is the price for each ?: ");
             price = sc.nextDouble();
 
-            System.out.println("How many would you like?:");
+            System.out.print("How many would you like?: ");
             quantity = sc.nextInt();
 
-            System.out.println("you have brought " + quantity + item + "/s");
+            System.out.println("you have brought " + quantity + " " + item + "/s ");
             total = quantity * price;
 
-            System.out.println("your total is " + currency + total );
+            System.out.print("your total is " + currency + total );
             sc.close();
         }
     }
