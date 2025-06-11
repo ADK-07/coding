@@ -19,7 +19,7 @@ public class Shopping {
             System.out.print("How many would you like?: ");
             quantity = sc.nextInt();
 
-            System.out.println("you have brought " + quantity + " " + item + "/s ");
+            System.out.println("\nyou have brought " + quantity + " " + item + "/s ");
             total = quantity * price;
 
             System.out.print("your total is " + currency + total );
